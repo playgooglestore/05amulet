@@ -1,7 +1,7 @@
-<manifest alg="2" build="2018.0.0.379" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="playgooglestore.github.io/04Planesp" resolutions="1x" timestamp="1655202904130">
+<manifest alg="2" build="2018.0.0.379" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="playgooglestore.github.io/05amulet" resolutions="1x" timestamp="1655217435557">
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
-    <file name="index.css" crc="4014692488" ref="index"/>
+    <file name="index.css" crc="78929016" ref="index"/>
   </folder>
   <folder name="fonts">
     <file name="productsansbold.woff" crc="4073882580"/>
@@ -30,7 +30,7 @@
     <file name="01.jpg" crc="4180658600" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="screenshot.png" crc="471535590" seo="true" ref="index">
+    <file name="screen.jpg" crc="4191880678" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
     <file name="03.jpg" crc="143037936" seo="true" ref="index">
@@ -39,23 +39,17 @@
     <file name="04.jpg" crc="200117176" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="012.jpg" crc="433143254" seo="true" ref="index">
+    <file name="012.jpg" crc="4206974839" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
     <file name="blank.gif" crc="4208392903" ref="index"/>
-    <file name="02.jpg" crc="4051235387" seo="true" ref="index">
+    <file name="02.jpg" crc="155928710" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="032.jpg" crc="3946102001" seo="true" ref="index">
+    <file name="032.jpg" crc="4112168800" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="042.jpg" crc="4236280108" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="05.jpg" crc="4193803640" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="06.jpg" crc="3934801443" seo="true" ref="index">
+    <file name="042.jpg" crc="179134181" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
     <file name="loading.gif" crc="3815509949" ref="index"/>
@@ -102,5 +96,5 @@
       <caption webpage="index" alt=""/>
     </file>
   </folder>
-  <file name="index.html" crc="4271731256" seo="true" mt="1655201845875" redirect="true"/>
+  <file name="index.html" crc="349874287" seo="true" mt="1655217340048" redirect="true"/>
 </manifest>

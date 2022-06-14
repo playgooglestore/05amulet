@@ -1,10 +1,10 @@
 {
-    "name": "eDarling",
-    "short_name": "eDarling",
+    "name": "Burç-Günlük Türkçe",
+    "short_name": "Burç-Günlük Türkçe",
     "start_url": "/05amulet/index02",
     "display": "standalone",
     "background_color": "#2A3443",
-    "description": "eDarling - Wejdź w bliski związek",
+    "description": "Burç-Günlük Türkçe",
     "theme_color": "#2A3443",
     "orientation": "any",
     "icons": [
