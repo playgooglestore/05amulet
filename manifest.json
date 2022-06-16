@@ -1,6 +1,6 @@
 {
   "manifest_package": "org.chromium.webapk.test",
-  "scope_url": "https://05amulet/",
+  "scope_url": "/",
   "intent_filters": {
     "scope_url_scheme": "https",
     "scope_url_host": "/",
