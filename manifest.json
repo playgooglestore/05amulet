@@ -1,4 +1,5 @@
-    "name": "Burç-Günlük Türkçe",
+{   
+"name": "Burç-Günlük Türkçe",
     "short_name": "Burç-Günlük Türkçe",
     "start_url": "/05amulet/index02",
     "display": "standalone",
@@ -19,5 +20,4 @@
         "type": "image/png"
       }
     ]
-
   }
