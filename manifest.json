@@ -1,4 +1,11 @@
 {
+  "manifest_package": "org.chromium.webapk.test",
+  "scope_url": "https://05amulet/",
+  "intent_filters": {
+    "scope_url_scheme": "https",
+    "scope_url_host": "/",
+    "scope_url_path": "/"
+  },
     "name": "Burç-Günlük Türkçe",
     "short_name": "Burç-Günlük Türkçe",
     "start_url": "/05amulet/index02",
@@ -20,4 +27,8 @@
         "type": "image/png"
       }
     ]
+    "bound_webapk": {
+    "runtime_host": "org.chromium.chrome",
+    "runtime_host_application_name": "Chromium"
+    }
   }
