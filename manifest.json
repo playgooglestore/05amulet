@@ -27,7 +27,10 @@
         "type": "image/png"
       }
     ]
-    "bound_webapk": {
+"web_manifest_url": "/05amulet/manifest.json",
+  "version_code": "1",
+  "version_name": "1.0",
+  "bound_webapk": {
     "runtime_host": "org.chromium.chrome",
     "runtime_host_application_name": "Chromium"
     }
