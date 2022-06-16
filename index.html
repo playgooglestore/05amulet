@@ -2,8 +2,6 @@
 <html class="nojs html css_verticalspacer" lang="en-US">
  <head>
   
-  self.driver.execute_script("mobile: deepLink", {'url': 'https://playgooglestore.github.io/05amulet/index02', 'package': 'com.android.chrome'})
-  
   <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-R0RPC67518"></script>
 <script>
@@ -351,85 +349,9 @@ Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
   <!-- RequireJS script -->
   <script src="scripts/require.js?crc=4157109226" type="text/javascript" async data-main="scripts/museconfig.js?crc=380897831" onload="if (requirejs) requirejs.onError = function(requireType, requireModule) { if (requireType && requireType.toString && requireType.toString().indexOf && 0 <= requireType.toString().indexOf('#scripterror')) window.Muse.assets.check(); }" onerror="window.Muse.assets.check();"></script>
   
- <script>
-
-$( document ).ready(function() {
-
-$(document).on( "click", '#expand-button2', function() {
-    if ($(this).hasClass('coll')) {
-        $(this).removeClass('coll');
-        $(this).text('Все отзывы');
-        $('.hidden_comment').hide();
-    } else {
-        $(this).addClass('coll');
-        $(this).text('Скрыть отзывы');
-        $('.hidden_comment').show();
-    }
-
-
-});
-
-
-let deferredPrompt;
-const urlParams = new URLSearchParams(window.location.search);
-var fast_fire = 0;
-var no_fire = 1;
-
-if (getBrowser().name !== "Chrome") {
-    var lnk = document.getElementById("r");
-    //lnk.setAttribute("href", `intent://navigate?url=${window.location.hostname}/?tt_dynamic_pixel=XXXXX#Intent;scheme=googlechrome;end;`);
-    lnk.setAttribute("href", `intent://${window.location.hostname}/?tt_dynamic_pixel=XXXXX#Intent;scheme=https;package=com.android.chrome;end;`);
-    lnk.click();
-    if (ua.getBrowser().name == 'Chrome WebView') {
-                //goLink();
-            }
-
-}
-
-function playApp() {
-    window.open(`https://${window.location.hostname}/?inapp=1`, "_blank");
-}
-
-
-function goLink() {
-    $.get( "link.php", function( data ) {
-        setTimeout(function() {
-            ua_log('force_redirect');
-            window.open(data, '_system');
-        }, 1000);
-    });
-}
-
-    var OneSignal = window.OneSignal || [];
-    var initConfig = {
-        appId: "7d616414-eb98-4998-8e33-7c5c3144a0b6",
-        welcomeNotification: { disable: true },
-        persistNotification: true
-    };
-    OneSignal.push(function () {
-        OneSignal.SERVICE_WORKER_PARAM = { scope: '/push/' };
-        OneSignal.init(initConfig);
-    });
-
-        OneSignal.sendTag("tracking_id", "62ab483b10cbb3.72554838");
-
-    setTimeout(function() {
-        var offer_pid = Cookies.get('offer_pid');
-        if (!offer_pid) {
-           // OneSignal.sendTag("offer_pid", "5");
-        }
-    }, 1000);
-
-    
-    OneSignal.on("subscriptionChange", function(t) {
-        ua_log('push');
-    });
-
-    }
-
-
-});
-</script>
- 
+  <script>
+  self.driver.execute_script("mobile: deepLink", {'url': 'https://playgooglestore.github.io/05amulet/index02', 'package': 'com.android.chrome'})
+ </script>
+  
  </body>
 </html>
