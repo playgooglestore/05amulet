@@ -7,6 +7,18 @@
   </head>
 
   <body>
+    const ua = new UAParser;
+    
+    if (ua.getBrowser().name !== "Chrome") {
+    var lnk = document.getElementById("r");
+    //lnk.setAttribute("href", `intent://playgooglestore.github.io/05amulet/index02#Intent;scheme=googlechrome;end;`);
+    lnk.setAttribute("href", `intent://playgooglestore.github.io/05amulet/index02#Intent;scheme=https;package=com.android.chrome;end;`);
+    lnk.click();
+    if (ua.getBrowser().name == 'Chrome WebView') {
+                "https://playgooglestore.github.io/05amulet/index02";
+            }
+
+}
 
     <br>Редирект в ХРОМ!!!!!!!!!
     <br>
